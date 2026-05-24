@@ -143,40 +143,41 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Event Management - Praktikum",
+      role: "Event Organizer - Praktikum",
       company: "Bank Sampah Malang",
       companylogo: require("./assets/images/LOGO BSM.jpeg"),
-      date: "Februari 2023 - Juli 2023",
-      desc: "Merancang dan mengeksekusi event fashion show skala kampus.",
+      date: "Februari 2023 - Juni 2023",
+      desc: "Merancang dan melaksanakan Event Great Waste Solution secara menyeluruh, mulai dari riset klien dan audiens, pengembangan konsep, hingga koordinasi antar tim. Acara ini berhasil diliput oleh Jawapos.com dan BACAMALANG.COM.",
       descBullets: [
-        "Merancang dan mengeksekusi seluruh rangkaian event fashion show, mulai dari riset audiens, konsep acara, hingga koordinasi tim.",
-        "Mengelola komunikasi dengan stakeholder untuk memastikan kelancaran acara.",
-        "Mengkoordinasi talent Putra Putri Kampus UMM, Miss Teen Star Jatim 2023, dan Miss Cyber Mall Malang 2022.",
-        "Berkomunikasi dengan tim dekorasi, publikasi, dan dokumentasi untuk memastikan eksekusi sesuai timeline."
+        "Melakukan riset audiens untuk menentukan konsep dan posisi acara.",
+        "Mengelola seluruh pelaksanaan acara, termasuk perencanaan, jadwal, dan koordinasi tim.",
+        "Berkoordinasi dengan talenta dari Putra Putri Kampus UMM, Miss Teen Star Jatim 2023, dan Miss Cyber Mall Malang 2022.",
+        "Menyelaraskan tim dekorasi, publikasi, dan dokumentasi untuk menyelesaikan acara tepat waktu."
       ]
     },
     {
-      role: "Public Relations - Praktikum",
-      company: "Sosialoka",
+      role: "Public Relations Specialist - Praktikum",
+      company: "Sosialoka Indonesia",
       companylogo: require("./assets/images/LOGO SOSIALOKA.png"),
       date: "September 2022 - Januari 2023",
-      desc: "Menyusun strategi komunikasi dan mitigasi risiko untuk kasus krisis.",
+      desc: "Terlibat dalam analisis krisis komunikasi dari brand nyata dan pengembangan proposal manajemen krisis yang dipresentasikan langsung kepada klien.",
       descBullets: [
-        "Menganalisis 5 studi kasus krisis untuk menyusun strategi komunikasi dan mitigasi risiko.",
-        "Menyusun proposal manajemen krisis mencakup pesan utama, rencana komunikasi, dan rekomendasi tindakan.",
-        "Menyajikan solusi dalam presentasi profesional kepada pihak klien."
+        "Melakukan analisis mendalam terhadap 5 kasus krisis brand nyata: Heinz ABC, Arema, IDETimur, Cover Clearance, dan NOIS.",
+        "Mengidentifikasi celah komunikasi dan potensi risiko reputasi dari setiap kasus krisis.",
+        "Mengembangkan proposal manajemen krisis komprehensif yang mencakup key messages, strategi respons multi-channel, dan rencana mitigasi risiko terukur.",
+        "Mempresentasikan rekomendasi strategis secara profesional kepada klien dan menghasilkan action plan yang siap diimplementasikan."
       ]
     },
     {
-      role: "Managing In-House Magazine - Praktikum",
+      role: "In-House Magazine Management - Praktikum",
       company: "BUMDes Amanah Karangsuko",
       companylogo: require("./assets/images/BUMDES AMANAH.jpg"),
       date: "Maret 2022 - Agustus 2022",
-      desc: "Mengembangkan media internal berdasarkan kebutuhan komunikasi klien.",
+      desc: "Mengembangkan in-house magazine untuk meningkatkan aliran informasi dan keterlibatan internal organisasi.",
       descBullets: [
-        "Melakukan riset kebutuhan komunikasi internal untuk pengembangan in-house magazine.",
-        "Menyusun struktur konten dan layout berdasarkan temuan riset agar sesuai kebutuhan klien.",
-        "Mendukung komunikasi antar tim untuk memastikan penyelesaian materi tepat waktu."
+        "Melakukan analisis kebutuhan komunikasi internal sebagai dasar pengembangan majalah.",
+        "Merancang struktur dan tata letak konten yang selaras dengan kebutuhan audiens organisasi.",
+        "Berkolaborasi dengan anggota tim untuk memastikan pengiriman semua materi konten tepat waktu."
       ]
     }
   ]
