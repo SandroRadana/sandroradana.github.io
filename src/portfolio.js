@@ -35,20 +35,12 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I Do",
   subTitle:
-    "Fokus utama saya adalah Public Relations, Event Management, Marketing Communication, Media, dan Brand Activation.",
+    "Public Relations, Event Management, Marketing Communication, Media, dan Brand Activation.",
   skills: [
-    emoji(
-      "⚡ Merancang dan mengeksekusi event, mulai dari riset audiens, konsep acara, koordinasi tim, hingga pelaksanaan."
-    ),
-    emoji(
-      "⚡ Menyusun strategi komunikasi, crisis handling, pesan utama, rencana komunikasi, dan mitigasi risiko."
-    ),
-    emoji(
-      "⚡ Mengelola konten strategis untuk media sosial, publikasi kegiatan, artikel daring, dan kebutuhan promosi."
-    ),
-    emoji(
-      "⚡ Berkoordinasi dengan stakeholder, talent, tim dekorasi, publikasi, dan dokumentasi untuk menjaga kelancaran proyek."
-    )
+    emoji("⚡ Event planning, riset audiens, konsep acara, dan eksekusi."),
+    emoji("⚡ Strategi komunikasi, crisis handling, dan mitigasi risiko."),
+    emoji("⚡ Content strategy untuk media sosial, publikasi, dan promosi."),
+    emoji("⚡ Koordinasi stakeholder, talent, dekorasi, publikasi, dan dokumentasi.")
   ],
   softwareSkills: [
     {
