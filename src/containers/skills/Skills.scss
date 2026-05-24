@@ -3,31 +3,30 @@
 .skills-main-div {
   display: flex;
   width: 100%;
-  overflow: hidden;
+  overflow: visible;
   align-items: flex-start;
-  gap: 2.5rem;
-}
-
-.skills-text-div {
-  margin-left: 30px;
-}
-
-.skills-main-div > * {
-  flex: 1;
-  margin-bottom: 30px;
+  gap: 2rem;
 }
 
 .skills-image-div {
+  flex: 1.25;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 0.15rem;
+  padding-top: 0;
   min-height: auto;
+  margin-bottom: 30px;
+}
+
+.skills-text-div {
+  flex: 1;
+  margin-left: 10px;
+  margin-bottom: 30px;
 }
 
 .skills-image-div > img {
-  width: min(100%, 520px);
-  max-width: 520px;
+  width: min(100%, 660px);
+  max-width: 660px;
   height: auto;
 }
 
@@ -58,9 +57,13 @@
     font-size: 40px;
   }
 
+  .skills-image-div {
+    flex: 1.15;
+  }
+
   .skills-image-div > img {
-    width: min(100%, 440px);
-    max-width: 440px;
+    width: min(100%, 560px);
+    max-width: 560px;
   }
 }
 @media (max-width: 768px) {
@@ -77,6 +80,7 @@
     flex-direction: column;
     align-items: center;
     gap: 0.75rem;
+    overflow: hidden;
   }
   .skills-text-div {
     order: 2;
@@ -97,13 +101,24 @@
   }
   .skills-image-div {
     order: 1;
-    max-width: 320px;
+    width: 100%;
+    max-width: 390px;
     min-height: auto;
     margin: 0 auto 0.5rem auto;
     padding-top: 0;
   }
   .skills-image-div > img {
     width: 100%;
-    max-width: 320px;
+    max-width: 390px;
+  }
+}
+
+@media (max-width: 380px) {
+  .skills-image-div {
+    max-width: 350px;
+  }
+
+  .skills-image-div > img {
+    max-width: 350px;
   }
 }
