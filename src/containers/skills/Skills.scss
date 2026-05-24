@@ -4,7 +4,7 @@
   display: flex;
   width: 100%;
   overflow: hidden;
-  align-items: center;
+  align-items: flex-start;
   gap: 2.5rem;
 }
 
@@ -20,14 +20,14 @@
 .skills-image-div {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding-top: 0;
-  min-height: 520px;
+  align-items: flex-start;
+  padding-top: 0.15rem;
+  min-height: auto;
 }
 
 .skills-image-div > img {
-  width: min(100%, 520px);
-  max-width: 520px;
+  width: min(100%, 420px);
+  max-width: 420px;
   height: auto;
 }
 
@@ -58,13 +58,9 @@
     font-size: 40px;
   }
 
-  .skills-image-div {
-    min-height: 430px;
-  }
-
   .skills-image-div > img {
-    width: min(100%, 420px);
-    max-width: 420px;
+    width: min(100%, 360px);
+    max-width: 360px;
   }
 }
 @media (max-width: 768px) {
