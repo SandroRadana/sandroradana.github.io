@@ -72,8 +72,7 @@
 .education-text-desc {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  text-align: justify;
-  text-align-last: left;
+  text-align: left;
   line-height: 1.7;
 }
 
@@ -83,8 +82,7 @@
 }
 
 .education-text-bullets li {
-  text-align: justify;
-  text-align-last: left;
+  text-align: left;
   line-height: 1.7;
   margin-bottom: 8px;
 }
@@ -140,8 +138,7 @@
     margin-right: 0;
   }
   .education-text-desc {
-    text-align: justify;
-    text-align-last: left;
+    text-align: left;
     padding: 0 4px;
   }
   .education-text-bullets > ul {
@@ -150,7 +147,6 @@
     padding-left: 1.25rem;
   }
   .education-text-bullets li {
-    text-align: justify;
-    text-align-last: left;
+    text-align: left;
   }
 }
