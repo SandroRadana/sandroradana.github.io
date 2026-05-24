@@ -15,7 +15,7 @@
 
 .greeting-main {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 2.5rem;
 }
 
@@ -46,6 +46,7 @@
   font-size: 70px;
   line-height: 1.1;
   color: $textColor !important;
+  margin-top: 0;
 }
 
 .greeting-text-p {
@@ -58,7 +59,9 @@
 .greeting-image-div {
   display: flex;
   justify-content: center;
-  transform: translate(32px, -18px);
+  align-items: flex-start;
+  transform: translateX(32px);
+  padding-top: 0;
 }
 
 .greeting-image-div > img {
@@ -107,7 +110,7 @@
     font-size: 20px;
   }
   .greeting-image-div {
-    transform: translate(20px, -12px);
+    transform: translateX(20px);
   }
 }
 @media (max-width: 768px) {
@@ -136,6 +139,7 @@
   .greeting-main {
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
     gap: 1rem;
   }
   .greeting-main > * {
