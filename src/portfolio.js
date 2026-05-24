@@ -19,7 +19,8 @@ const greeting = {
   subTitle: emoji(
     "Fresh graduate Ilmu Komunikasi Universitas Muhammadiyah Malang dengan pengalaman praktis dalam Public Relations, Crisis Handling, Event Management, content strategy, dan komunikasi pemasaran digital. Terbiasa melakukan riset kebutuhan audiens, menyusun konten strategis, serta berkoordinasi dengan stakeholder untuk memastikan kelancaran proyek."
   ),
-  resumeLink: "https://sandroradana.github.io/CV-Sandro-Romaddana.pdf",
+  resumeLink: require("./containers/greeting/CV ATS Sandro Romaddana.pdf"),
+  resumeFileName: "CV ATS Sandro Romaddana.pdf",
   displayGreeting: true
 };
 
