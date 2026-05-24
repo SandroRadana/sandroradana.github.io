@@ -1,86 +1,87 @@
 .splash-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
   min-height: 100svh;
-  padding: 2rem 1.25rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
   box-sizing: border-box;
   overflow: hidden;
 }
 
+.splash-content {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  transform: translateY(-3vh);
+}
+
 .splash-animation-container {
-  width: min(180px, 42vw);
-  height: min(180px, 42vw);
+  width: 132px;
+  height: 132px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1.75rem;
 }
 
-.splash-animation-container > div {
-  width: 100%;
-  height: 100%;
+.splash-animation-container > div,
+.splash-animation-container svg {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .splash-title-container {
   width: 100%;
-  max-width: 620px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.45rem;
-  font-size: clamp(1.75rem, 5vw, 2.5rem);
-  line-height: 1.35;
-  text-decoration: none;
   text-align: center;
-  white-space: nowrap;
+  line-height: 1.15;
 }
 
-.splash-title {
+.splash-title-line {
+  display: block;
   font-family: "Agustina Regular", cursive;
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 0.45rem;
+  font-size: clamp(2rem, 7vw, 3rem);
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {
   .splash-container {
-    justify-content: center;
-    padding: 1.5rem 1rem;
+    padding: 1rem;
+  }
+
+  .splash-content {
+    gap: 1rem;
+    transform: translateY(-2vh);
   }
 
   .splash-animation-container {
-    width: 120px;
-    height: 120px;
-    margin-bottom: 1.25rem;
+    width: 104px;
+    height: 104px;
   }
 
-  .splash-title-container {
-    max-width: 92vw;
-    gap: 0.25rem;
-    font-size: clamp(1.35rem, 8.5vw, 2rem);
-    line-height: 1.25;
-    white-space: normal;
-    flex-wrap: wrap;
-  }
-
-  .splash-title {
-    padding: 0 0.25rem;
+  .splash-title-line {
+    font-size: clamp(1.75rem, 9vw, 2.35rem);
   }
 }
 
 @media (max-width: 420px) {
   .splash-animation-container {
-    width: 96px;
-    height: 96px;
-    margin-bottom: 1rem;
+    width: 88px;
+    height: 88px;
   }
 
-  .splash-title-container {
-    font-size: clamp(1.15rem, 8vw, 1.55rem);
-    gap: 0.15rem;
+  .splash-title-line {
+    font-size: clamp(1.55rem, 10vw, 2rem);
   }
 }
