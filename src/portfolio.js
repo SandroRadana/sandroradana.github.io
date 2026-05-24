@@ -185,8 +185,8 @@ const workExperiences = {
 };
 
 const openSource = {
-  showGithubProfile: "true",
-  display: true
+  showGithubProfile: "false",
+  display: false
 };
 
 const bigProjects = {
