@@ -15,11 +15,10 @@
 .card-subtitle {
   color: $cardSubtitle;
   font-size: 17px;
-  line-height: 1.6rem;
-  text-align: justify;
-  text-align-last: left;
-  text-justify: inter-word;
-  hyphens: auto;
+  line-height: 1.65rem;
+  text-align: left;
+  word-spacing: normal;
+  letter-spacing: normal;
 }
 .project-card {
   display: flex;
@@ -100,8 +99,7 @@
   .project-subtitle {
     font-size: 16px;
     line-height: 1.7;
-    text-align: justify;
-    text-align-last: left;
+    text-align: left;
     padding: 0 4px;
   }
   .projects-container {
@@ -122,8 +120,9 @@
   .card-subtitle {
     font-size: 15px;
     line-height: 1.7;
-    text-align: justify;
-    text-align-last: left;
+    text-align: left;
+    word-spacing: normal;
+    letter-spacing: normal;
   }
   .project-image {
     height: 190px;
