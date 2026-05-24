@@ -4,6 +4,7 @@
   text-align: center;
   width: 100%;
   overflow-x: hidden;
+  color: $textColor;
 }
 
 .App-logo {
@@ -26,5 +27,10 @@
 }
 
 .subTitle {
-  color: $subTitle;
+  color: $subTitle !important;
+}
+
+.dark-mode .subTitle,
+.dark-mode.subTitle {
+  color: $textColorDark !important;
 }
