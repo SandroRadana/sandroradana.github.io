@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.03513cfb.css",
-    "main.js": "/static/js/main.8955cfb4.js",
+    "main.js": "/static/js/main.ea55041e.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.b1889536.chunk.js": "/static/js/64.b1889536.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -11,15 +11,15 @@
     "static/media/Logo UMM.png": "/static/media/Logo UMM.84b5e0503c6abf9e31f0.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/SAYA I DO.png": "/static/media/SAYA I DO.b98e08f92fcc42dd5650.png",
-    "static/media/CV ATS Sandro Romaddana.pdf": "/static/media/CV ATS Sandro Romaddana.f975b554b3b257466f04.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/CV. Sandro Romaddana New.pdf": "/static/media/CV. Sandro Romaddana New.a42aa0df1fcef7266dce.pdf",
     "static/media/Foto Sandro 001.jpg": "/static/media/Foto Sandro 001.c5b2cfc9880024852652.jpg",
     "static/media/BUMDES AMANAH.jpg": "/static/media/BUMDES AMANAH.311f1df2c58b18bc6e23.jpg",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.03513cfb.css.map": "/static/css/main.03513cfb.css.map",
-    "main.8955cfb4.js.map": "/static/js/main.8955cfb4.js.map",
+    "main.ea55041e.js.map": "/static/js/main.ea55041e.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.b1889536.chunk.js.map": "/static/js/64.b1889536.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -27,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.03513cfb.css",
-    "static/js/main.8955cfb4.js"
+    "static/js/main.ea55041e.js"
   ]
 }
