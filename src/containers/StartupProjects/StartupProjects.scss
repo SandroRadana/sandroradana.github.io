@@ -15,7 +15,11 @@
 .card-subtitle {
   color: $cardSubtitle;
   font-size: 17px;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 .project-card {
   display: flex;
@@ -24,7 +28,7 @@
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .project-card-light {
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
@@ -41,7 +45,7 @@
 }
 
 .project-detail {
-  text-align: center;
+  text-align: left;
 }
 .project-card-light:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
@@ -61,7 +65,17 @@
 .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
+  gap: 1.25rem;
+}
+
+.project-subtitle {
+  text-align: justify;
+  text-align-last: left;
+  line-height: 1.7;
+}
+
+.project-card-footer {
+  margin-top: 1rem;
 }
 
 .project-card-footer span.project-tag {
@@ -72,12 +86,12 @@
   border-radius: 4px;
   display: inline-flex;
   font-size: 0.75rem;
-  height: 2em;
+  min-height: 2em;
   justify-content: center;
-  white-space: nowrap;
-  line-height: 1.5;
+  white-space: normal;
+  line-height: 1.4;
   margin: 0 0.5rem 0.5rem 0;
-  padding: 0 0.75em;
+  padding: 0.35em 0.75em;
   cursor: pointer;
   transition: 0.2s ease-in;
 }
@@ -85,6 +99,39 @@
 @media (max-width: 768px) {
   .project-subtitle {
     font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+    text-align-last: left;
+    padding: 0 4px;
+  }
+  .projects-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .project-card {
+    padding: 1.15rem;
+  }
+  .project-detail {
+    text-align: left;
+  }
+  .card-title {
+    font-size: 20px;
+    line-height: 1.35;
+    text-align: center;
+  }
+  .card-subtitle {
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: justify;
+    text-align-last: left;
+  }
+  .project-image {
+    height: 190px;
+  }
+  .card-image {
+    width: 190px;
+  }
+  .project-card-footer {
     text-align: center;
   }
 }
