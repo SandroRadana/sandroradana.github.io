@@ -19,15 +19,37 @@
   color: $subTitle;
 }
 
+.dark-mode .software-skill-inline > i,
+.dark-mode.software-skill-inline > i {
+  color: rgba(255, 255, 255, 0.82);
+}
+
 .software-skill-inline > i:hover {
   color: $skillsColor;
 }
+
+.dark-mode .software-skill-inline > i:hover,
+.dark-mode.software-skill-inline > i:hover {
+  color: #ffffff;
+}
+
 .software-skill-inline > p {
   color: $subTitle;
   font-size: 10px;
 }
+
+.dark-mode .software-skill-inline > p,
+.dark-mode.software-skill-inline > p {
+  color: rgba(255, 255, 255, 0.78);
+}
+
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
+}
+
+.dark-mode .software-skill-inline > i:hover ~ p,
+.dark-mode.software-skill-inline > i:hover ~ p {
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
