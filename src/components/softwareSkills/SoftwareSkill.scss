@@ -1,68 +1,83 @@
 @import "../../_globalColor";
 
-.software-skills-main-div {
-  margin: 1.5rem 0;
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
 }
 
-.competency-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.7rem;
+.software-skill-inline {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
-.competency-chip {
-  display: flex;
-  align-items: center;
-  gap: 0.55rem;
-  min-height: 52px;
-  padding: 0.75rem 0.85rem;
-  border-radius: 14px;
-  background: rgba(85, 25, 139, 0.08);
-  border: 1px solid rgba(85, 25, 139, 0.18);
-  color: $textColor;
+.software-skill-inline > i {
+  color: $subTitle;
 }
 
-.dark-mode .competency-chip {
-  background: rgba(255, 255, 255, 0.06);
-  border-color: rgba(255, 255, 255, 0.12);
+.dark-mode .software-skill-inline > i,
+.dark-mode.software-skill-inline > i {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.software-skill-inline > i:hover {
+  color: $skillsColor;
+}
+
+.dark-mode .software-skill-inline > i:hover,
+.dark-mode.software-skill-inline > i:hover {
   color: #ffffff;
 }
 
-.competency-chip > i {
+.software-skill-inline > p {
+  color: $subTitle;
+  font-size: 10px;
+}
+
+.dark-mode .software-skill-inline > p,
+.dark-mode.software-skill-inline > p {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.software-skill-inline > i:hover ~ p {
   color: $skillsColor;
-  font-size: 1.15rem;
-  flex: 0 0 auto;
 }
 
-.dark-mode .competency-chip > i {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.competency-chip > span {
-  color: inherit;
-  font-size: 0.82rem;
-  line-height: 1.3;
-  font-weight: 600;
-}
-
-@media (max-width: 1180px) {
-  .competency-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+.dark-mode .software-skill-inline > i:hover ~ p,
+.dark-mode.software-skill-inline > i:hover ~ p {
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
-  .competency-grid {
-    grid-template-columns: 1fr;
-    gap: 0.6rem;
+  .dev-icons {
+    font-size: 2.2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px 10px;
+    align-items: start;
+    margin: 18px auto 8px auto;
+    max-width: 340px;
   }
 
-  .competency-chip {
-    min-height: 48px;
-    padding: 0.7rem 0.85rem;
+  .software-skill-inline {
+    margin: 0;
+    width: 100%;
   }
 
-  .competency-chip > span {
-    font-size: 0.88rem;
+  .software-skill-inline > p {
+    font-size: 9px;
+    line-height: 1.25;
+    margin-top: 6px;
+  }
+}
+
+@media (max-width: 360px) {
+  .dev-icons {
+    font-size: 2rem;
+    gap: 12px 8px;
   }
 }
