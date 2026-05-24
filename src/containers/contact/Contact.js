@@ -1,10 +1,8 @@
 import React, {useContext} from "react";
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {illustration, contactInfo} from "../../portfolio";
+import {contactInfo} from "../../portfolio";
 import {Fade} from "react-reveal";
-import email from "../../assets/lottie/email";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
@@ -30,16 +28,9 @@ export default function Contact() {
               }
             >
               {contactInfo.number && (
-                <>
-                  <a
-                    className="contact-detail"
-                    href={"tel:" + contactInfo.number}
-                  >
-                    {contactInfo.number}
-                  </a>
-                  <br />
-                  <br />
-                </>
+                <a className="contact-detail" href={"tel:" + contactInfo.number}>
+                  {contactInfo.number}
+                </a>
               )}
               <a
                 className="contact-detail-email"
@@ -47,20 +38,8 @@ export default function Contact() {
               >
                 {contactInfo.email_address}
               </a>
-              <br />
-              <br />
               <SocialMedia />
             </div>
-          </div>
-          <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} />
-            ) : (
-              <img
-                alt="Logo UMM"
-                src={require("../../assets/images/Logo UMM.png")}
-              ></img>
-            )}
           </div>
         </div>
       </div>
